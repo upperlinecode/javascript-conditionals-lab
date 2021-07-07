@@ -1,6 +1,6 @@
 # Conditionals Lab
 
-[![Run on Repl.it](https://repl.it/badge/github/upperlinecode/conditionals-lab-javascript)](https://repl.it/github/upperlinecode/conditionals-lab-javascript)
+[![Run on Repl.it](https://repl.it/badge/github/upperlinecode/javascript-conditionals-lab)](https://repl.it/github/upperlinecode/javascript-conditionals-lab)
 
 ## TL;DR
 
