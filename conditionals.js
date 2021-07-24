@@ -34,7 +34,7 @@ let firstNumber //  = ______
 
 
 // replace the blank with a conditional statement that tests to see if a number is even. Hint: the % operator might be useful here.
-let secondNumber: //  = ______
+let secondNumber //  = ______
 // if (__________) {
 //     console.log("That number is even!")
 // } else {
@@ -47,7 +47,7 @@ let secondNumber: //  = ______
 
 // replace the blank with a conditional statement that only adds a fee to the ticket price if the luggage weight is over 50 pounds
 let luggageWeight = 55
-const ticketPrice = 150
+let ticketPrice = 150
 
 // if (__________) {
 //     ticketPrice += 20
@@ -63,8 +63,8 @@ const ticketPrice = 150
 
 // replace the blanks with a conditional statement that prints the correct statement depending on the carSpeed that you input.
 let carSpeed //  = _____
-const maximumSpeed = 70
-const minimumSpeed = 45
+let maximumSpeed = 70
+let minimumSpeed = 45
 
 
 // if (__________) {
@@ -87,5 +87,5 @@ const minimumSpeed = 45
         // Thanks and have a nice day!
 
 let customerPayment //  = _______
-const totalCheckoutCost //  = _______
+let totalCheckoutCost //  = _______
 // write conditional statement here:
