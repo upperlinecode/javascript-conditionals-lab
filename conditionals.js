@@ -34,7 +34,7 @@ let firstNumber //  = ______
 
 
 // replace the blank with a conditional statement that tests to see if a number is even. Hint: the % operator might be useful here.
-let secondNumber: //  = ______
+let secondNumber //  = ______
 // if (__________) {
 //     console.log("That number is even!")
 // } else {
