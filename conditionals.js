@@ -1,9 +1,14 @@
 /* ==== WARM-UP SET 1 ====
-Replace the '__' with comparison operators to make the following statements true
-Try to use a different comparison operator each time
+Directions: Replace the blanks '__' for each of the `console.log()` statements below with comparison operators (>, <, >=, <=, ===, !==). The goal is to make each statement print a value of `true` to the console. Be sure to uncomment each statement before pressing the `run` button. Test each statement before moving on to the next one. Feel free to comment out any previous code if the console becomes crowded. (Helpful Tip: try to use a different comparison operator each time.) 
 */ 
-console.log("The following lines should say TRUE")
-// console.log(45 __ 45)
+
+/*
+Example: 
+console.log(45 __ 45)
+*/
+// Solution:
+console.log(45 === 45)
+
 // console.log(-9 __ 9)
 // console.log(100 __ 100000)
 // console.log(5.6 __ 5.5)
@@ -12,10 +17,16 @@ console.log("The following lines should say TRUE")
 
 
 /* ==== WARM-UP SET 2 ====
-Replace the '__' with comparison operators to make the following statements false
-Try to use a different comparison operator each time
+Directions: Replace the blanks '__' for each of the `console.log()` statements below with comparison operators (>, <, >=, <=, ===, !==). The goal is to make each statement print a value of `false` to the console. Be sure to uncomment each statement before pressing the `run` button. Test each statement before moving on to the next one. Feel free to comment out any previous code if the console becomes crowded. (Helpful Tip: try to use a different comparison operator each time.) 
 */
-console.log("\nThe following lines should say FALSE")
+
+/*
+Example: 
+console.log(2 __ 10)
+*/
+// Solution:
+console.log(2 > 10)
+
 // console.log(2 __ 10)
 // console.log(22 __ 22)
 // console.log( 0 __ -5)
@@ -23,9 +34,8 @@ console.log("\nThe following lines should say FALSE")
 // console.log("frog" __ "prince")
 
 
-console.log("\nExercises start here.")
 /* ==== EXERCISE 1 ====
-replace the blank with a conditional statement so that the lunch invitation is only printed if isHungry is true. Change the boolean in the isHungry variable to check and see if your conditional statement works.
+Directions: Replace the blank after the word `if` with a conditional statement so that the lunch invitation is only printed if the variable `isHungry` is true. Change the boolean value of the isHungry variable to check and see if your conditional statement works. (Helpful Hint: Don't forget to uncomment the code below to test your conditional statement!)
 */
 let isHungry = false
 
@@ -34,8 +44,11 @@ let isHungry = false
 // }
 
 /* ==== EXERCISE 2 ====
-Replace the blank with a conditional statement that tests to see if a number is positive or negative.
+Directions: Begin by assigning the variable,`firstNumber` a positive or negative number. Then, replace the blank after the word `if` with a conditional statement that tests to see if the number stored in the variable is positive or negative.  Make sure to change the value of `firstNumber` to ensure that your conditional statement works for (+) or (-) numbers! 
+
+(Helpful Hint: Think of a number line (or Google it!). The number 0 is neither positive nor negative. If a number is greater than 0, then it is considered a positive number...)
 */
+
 // let firstNumber = ______
 // if (__________) {
 //     console.log("That number is negative!")
@@ -44,8 +57,11 @@ Replace the blank with a conditional statement that tests to see if a number is 
 // }
 
 /* ==== EXERCISE 3 ====
-Replace the blank with a conditional statement that tests to see if a number is even. Hint: the % operator might be useful here.
+Directions: Begin by assigning the variable,`secondNumber` a random number. Then replace the blank with a conditional statement that tests to see if a number is even. Make sure to change the value of `secondNumber` to ensure that your conditional statement works for both even and odd numbers!
+
+(Helpful Hint: The % (remainder or modulus) operator might be useful here. When an even number is divided by 2, the remainder is 0. Can the same be said about odd numbers?)
 */
+
 // let secondNumber = ______
 // if (__________) {
 //     console.log("That number is even!")
@@ -55,13 +71,12 @@ Replace the blank with a conditional statement that tests to see if a number is 
 
 
 
-
 /* ==== EXERCISE 4 ====
-Replace the blank with a conditional statement that only adds a fee to the ticket price if the luggage weight is over 50 pounds
+Directions: Replace the blank below with a conditional statement that only adds a fee to the ticket price if the luggage weight is over 50 pounds. Update the console.log() statements by concatenating the variable `ticketPrice` to let the customer know the total price of their trip. Change the value of `luggageWeight` to check that all conditions work for the code below.
 */
 
 // let luggageWeight = 55
-// const ticketPrice = 150
+// let ticketPrice = 150
 
 // if (__________) {
 //     ticketPrice += 20
@@ -72,11 +87,12 @@ Replace the blank with a conditional statement that only adds a fee to the ticke
 
 
 
-
-
 /* ==== EXERCISE 5 ====
-replace the blanks with a conditional statement that prints the correct statement depending on the carSpeed that you input.
+Directions: Begin by assigning the variable `carSpeed` a number. Replace the blanks with a conditional statement that prints the correct statement depending on the carSpeed that you input.
+
+(Helpful Hint: Consider which logical operators would best help you compare `carSpeed` with the min or max speed limit values.)
 */ 
+
 // let carSpeed = _____
 const maximumSpeed = 70
 const minimumSpeed = 45
@@ -100,13 +116,17 @@ if customerPayment is greater than the totalCheckoutCost, calculate the customer
         Your change is $3.25. Thank you for shopping with us today.
 if customerPayment is less than the totalCheckoutCost, calculate the remaining balance and print a statement like this:
         There is still $2.75 remaining on your balance.
-if customerPayment is equal to the totalCheckoutCost, print a statement wishing the customer a nice day.
+if customerPayment is equal to the totalCheckoutCost, print a statement wishing the customer a nice day like this:
         Thanks and have a nice day!
+
+Helpful Hint:
+- There are multiple conditions needed for this exercise. Consider using `else if` as shown in exercise 5.
+- There is some arithmetic involved. A remaining balance must be calculated along with how much change is due to the customer.
 */
 
 // let customerPayment = _______
 // let totalCheckoutCost = _______
 
-/* 
-write conditional statement below:
-*/
+ 
+// write conditional statement below:
+
